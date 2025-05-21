@@ -28,7 +28,6 @@ List<Library> all=repo.findAll();
 	@Override
 	public String register(Library library) {
 		repo.save(library);
-		System.out.println("print");
 		
 	return "saved";
 	}
